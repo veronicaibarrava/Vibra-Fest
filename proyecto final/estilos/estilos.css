@@ -1,0 +1,131 @@
+header {
+  background-color: antiquewhite;
+  height: 130px;
+}
+header img{
+  width: 10%;
+}
+.menu{
+  background-color: #8f28dc;
+  height: 50px;
+}
+.menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.menu ul li{
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 22px;
+}
+.menu ul a{
+  text-decoration: none;
+  text-align: none;
+  color: antiquewhite;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inicio {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  background-color: antiquewhite;
+}
+.destacado{
+  color: #8f28dc;
+}
+#festival{
+  font-size: 12px;
+}
+#fecha {
+  font-size: 12px;
+}
+#titulo{
+  text-align: center;
+  background-color:#8f28dc;
+  color: antiquewhite;
+}
+.entradas {
+  background-color: #8f28dc;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.entradas h1 {
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
+  margin: 0; 
+}
+
+.planes {
+  background-color: antiquewhite;
+  font-size: 11px;
+  width: 155px; 
+  color: #6308a8;
+  border-radius: 7px;
+  padding: 13px;  
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#contexto {
+  font-size: 12px;
+  background-color: #8f28dc;
+  color: antiquewhite;
+}
+#contexto h1 {
+  font-size: 15px;
+  color: antiquewhite;
+}
+#mapa img{
+  width: 60%;
+}
+#mapa {
+  background-color: antiquewhite;
+}
+#urbano {
+  background-color: #be96eb;
+  color: #5f00a6;
+}
+#urbano h1{
+  text-align: center;
+}
+#pop {
+  background-color:  #a8c5e5 ;
+  color: #31518e;
+}
+#pop h1{
+  text-align: center;
+}
+#tropical {
+  background-color: #f7ce5f;
+  color: #866200;
+}
+#tropical h1{
+  text-align: center;
+}
+footer {
+  background-color:#8f28dc;
+  color: antiquewhite;
+  font-size: 10px;
+}
+#urbano img {
+  width: 17%;
+  height: auto;
+}
+#pop img{
+  width: 17%;
+  height: auto;
+}
+#tropical img{
+  width: 17%;
+  height: auto;
+}
