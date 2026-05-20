@@ -1,0 +1,216 @@
+header {
+  background-color: antiquewhite;
+  height: 130px;
+}
+header img{
+  width: 10%;
+}
+.menu{
+  background-color: #8f28dc;
+  height: 40px;
+  margin: 0%;
+}
+.menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.menu ul li{
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 22px;
+}
+.menu ul a{
+  text-decoration: none;
+  text-align: none;
+  color: antiquewhite;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inicio {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  background-color: antiquewhite;
+}
+.destacado{
+  color: #8f28dc;
+}
+#festival{
+  font-size: 12px;
+}
+#fecha {
+  font-size: 12px;
+}
+#titulo{
+  text-align: center;
+  background-color:#8f28dc;
+  color: antiquewhite;
+}
+.entradas {
+  background-color: #8f28dc;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.entradas h1 {
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
+  margin: 0; 
+}
+
+.planes {
+  background-color: antiquewhite;
+  font-size: 11px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 155px; 
+  color: #6308a8;
+  border-radius: 7px;
+  padding: 13px;  
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#contexto {
+  font-size: 18px;
+  background-color: #8f28dc;
+  color: antiquewhite;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#contexto h1 {
+  font-size: 15px;
+  color: antiquewhite;
+  text-align: center;
+}
+#contexto p{
+  margin: 20px;
+}
+#mapa img{
+  width: 60%;
+  margin: 30px;
+}
+#mapa {
+  background-color: antiquewhite;
+  text-align: center;
+}
+#urbano {
+  background-color: #be96eb;
+  color: #5f00a6;
+}
+#urbano h1{
+  text-align: center;
+}
+#pop {
+  background-color:  #a8c5e5 ;
+  color: #31518e;
+}
+#pop h1{
+  text-align: center;
+}
+#tropical {
+  background-color: #f7ce5f;
+  color: #866200;
+}
+#tropical h1{
+  text-align: center;
+}
+footer {
+  background-color:#8f28dc;
+  color: antiquewhite;
+  font-size: 20px;
+}
+#urbano img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+#pop img{
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+#tropical img{
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+#urbano {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+}
+#urbano h1 {
+  width: 110%;
+  text-align: center;
+}
+#urbano article {
+  text-align: center;
+  width: 20%;
+}
+#pop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+}
+#pop h1 {
+  width: 110%;
+  text-align: center;
+}
+#pop article {
+  text-align: center;
+  width: 20%;
+}
+.tropical {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+}
+.tropical h1 {
+  width: 110%;
+  text-align: center;
+}
+.tropical article {
+  text-align: center;
+  width: 20%;
+}
+#cuenta-regresiva {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tiempo-bloque {
+  background-color: #8f28dc;
+  color: antiquewhite;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+  min-width: 60px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tiempo-bloque span {
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+}
+
+.tiempo-bloque p {
+  font-size: 11px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #be96eb;
+}
